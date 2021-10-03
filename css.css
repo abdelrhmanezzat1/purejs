@@ -1,0 +1,16 @@
+nav{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    background-color: coral;
+    display: none;
+
+}
+/*
+.navbar li {
+    display: block;
+}
+*/
+.hammer input[type = "checkbox"]:checked ~ nav{
+    display: block;
+}
